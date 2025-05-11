@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task2.Entities.Models
-{
-    internal class Vehicle
+    namespace Task2.Entities.Models
     {
+    public abstract class Vehicle
+    {
+        public abstract void DisplayInfo();
     }
 }

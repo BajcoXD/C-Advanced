@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Task2.Entities.Models.Vehicles
 {
-    internal class MotorBike
+    public class MotorBike : Vehicle
     {
+        public override void DisplayInfo()
+        {
+            Console.WriteLine("I'm a motorbike and I drive on 2 wheels :)");
+        }
     }
 }
