@@ -1,5 +1,4 @@
-﻿
-namespace TaxiManager9000.Domain.Models
+﻿namespace TaxiManager9000.Domain.Models
 {
     public abstract class BaseEntity 
     {
